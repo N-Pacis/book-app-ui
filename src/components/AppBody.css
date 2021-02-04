@@ -1,0 +1,11 @@
+.app-body{
+    overflow-x: hidden;
+    width: 80%;
+    height:auto;   
+    float: left;
+    padding-top: 50px;
+}
+.best-books{
+    display: flex;
+    height: auto;
+}

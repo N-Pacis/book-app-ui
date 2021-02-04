@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.book{
+    display: flex;
+    margin-bottom: 25px;
+    width: 32%;
+    margin-right: 10px;
+}
+.book>img{
+    height: 180px;
+    border-radius: 12px;
+    width: 120px;
+}
+.book-info{
+    margin-left: 10px;
+}
+.book-info>h3{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.book-info>p{
+    color: rgba(107, 175, 243, 0.733);  
+    font-size: 13px;
+    font-family:sans-serif;
+}
+.book-statistics{
+    display: flex;
+    margin-top: 45px;
+}
+.book-statistics__plays>p{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+.book-statistics>p{
+    font-family: 'Lato', sans-serif;;
+    font-size: 13px;
+}
+.book-statistics__plays{
+    display: flex;
+    margin-top:5px;
+}
+.book-statistics__plays>.MuiSvgIcon-root{
+    color: dodgerblue;
+    margin-right:5px;
+    font-size: 14px;
+}
+.book-statistics>.MuiSvgIcon-root{
+    color: dodgerblue;
+    margin-right:5px;
+    font-size: 14px;
+}
+.book-info>.MuiSvgIcon-root{ 
+    font-size: 15px;
+    margin-top: 25px;
+}
+.book-info>.shaded{
+    color: rgb(253, 78, 78);
+}

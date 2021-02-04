@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.amazon-sellers{
+    width: 40%;
+}
+.amazon-sellers>h2{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 27px;
+    text-transform: none;
+    margin-top: 30px;
+    font-size: 25px;
+    text-shadow: 0px 0px 1px #000;
+}
+.amazon-books{
+    margin-right: 20px;
+    background-color: rgba(236, 236, 236, 0.514);
+    border-radius: 10px;
+}

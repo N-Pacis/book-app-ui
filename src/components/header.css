@@ -1,0 +1,20 @@
+.header{
+    background-color: #ccc;
+    height: 50px;
+    width: 100%;
+    clear: both;
+    display: none;
+}
+.header .MuiSvgIcon-root:nth-child(1){
+    font-size: 40px;
+    margin-left: 30px;
+    display: none;
+}
+@media only screen and (max-width:600px){
+    .header{
+        display: flex;
+    }
+    .header .MuiSvgIcon-root:nth-child(1){
+        display: flex;
+    }
+}
